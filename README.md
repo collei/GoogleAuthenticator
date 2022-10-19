@@ -26,6 +26,17 @@ Branch | Github Actions | Coverage |
 composer require sonata-project/google-authenticator
 ```
 
+**Only If composer does not find it at Packagist.org**, include the following in your composer.json:
+
+```json
+	"repositories": [
+		{
+			"url": "https://github.com/collei/GoogleAuthenticator.git",
+			"type": "git"
+		}
+	]
+```
+
 ## Usage
 
 See example.php for how to use it.
